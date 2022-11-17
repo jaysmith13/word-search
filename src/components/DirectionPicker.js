@@ -19,5 +19,10 @@ const displayDirections = [
     "rightup",
     "left",
     "center",
-    
-]
+    "right",
+    "rightdown",
+    "leftdown",
+    "down"
+
+];
+
