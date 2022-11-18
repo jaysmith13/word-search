@@ -26,3 +26,9 @@ const displayDirections = [
 
 ];
 
+const Direction = ({directions, direction, onClick}) => {
+    let dirClass;
+    if (direction[direction]){
+        
+    }
+}
