@@ -17,3 +17,13 @@ const GridItem = ({item}) => (
     </div>
 );
 
+const GridList = ({list}) => (
+    <div>
+        <Paper style={style} zDepth={1}>
+            <Subheader>{list.name}</Subheader>
+            <List>
+                {list.grids.map(item => <GridItem item={item} key={item.name}/>)}
+                </List>
+        </Paper>
+    </div>
+);
