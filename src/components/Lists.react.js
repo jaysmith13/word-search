@@ -27,3 +27,45 @@ const GridList = ({list}) => (
         </Paper>
     </div>
 );
+class Lists extends Component {
+    constructor(props) {
+      super(props);
+      this.state = {
+        lists: [
+          {
+            name: 'Anime',
+            grids: [
+              { name: 'Dragon Ball', id: 'SJMAKVQ_G' },
+              { name: 'HunterXHunter', id: 'SJv2cNQOz' }
+            ]
+          },
+          {
+            name: 'Shows',
+            grids: [
+              { name: 'Psych', id: 'BJBlj4mdz' },
+              { name: 'Criminal Minds', id: 'Hkl1u4Xuf' },
+              { name: 'A Million Little Things', id: 'SkzKu47uf' }
+            ]
+          },
+          {
+            name: 'other',
+            grids: [{ name: 'Harry Potter', id: 'S1qghN7dM' }]
+          }
+        ]
+      };
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+export default Lists;
