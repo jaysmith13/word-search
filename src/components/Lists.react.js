@@ -54,7 +54,19 @@ class Lists extends Component {
         ]
       };
     }
+render() {
+    return(
+        <div className='lists-content'>
+            <div className='lists-display'>
+                {this.state.lists.map(list => (
+                    <GridList list={list} key={list.name} />
+                ))}
+            </div>
 
+        </div>
+    );
+}
+}
 
 
 
